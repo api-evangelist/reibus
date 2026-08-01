@@ -1,8 +1,27 @@
 aid: reibus
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reibus.png
 name: Reibus
-description: Reibus is a company surfaced as a portfolio company of canaan-partners, initialized-capital,
-  softbank-vision-fund and added to the API Evangelist network as a stub for enrichment. This profile
-  is a lead awaiting the enrichment pipeline.
+description: Reibus is a technology-enabled B2B platform for the industrial metals
+  industry, originally a digital marketplace for buying and selling steel and other
+  metals and now focused on open-deck freight logistics for shipping steel and industrial
+  metals. Operating as Reibus Logistics, the company connects shippers with a vast
+  network of international and domestic carriers across flatbed, dry van, and drayage
+  modes, offering instant quoting, shipment visibility, and cross-border logistics
+  in the US, Canada, and Mexico. Founded by CEO John Blount, Reibus operates in 7
+  countries, does business in 25+ countries, and is backed by Canaan Partners,
+  Initialized Capital, and the SoftBank Vision Fund. As of this profile the company
+  publishes no public developer API, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/reibus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Logistics
+- Freight
+- Metals
+- Steel
+- Supply Chain
+- Transportation
+- Marketplace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +52,18 @@ maintainers:
 common:
 - type: Website
   url: https://reibus.com/
+- type: Support
+  url: https://reibus.com/contact/
+- type: TermsOfService
+  url: https://reibus.com/terms-conditions/
+- type: PrivacyPolicy
+  url: https://reibus.com/privacy-policy/
+- type: LLMsTxt
+  url: llms/reibus-llms.txt
+- type: DomainSecurity
+  url: security/reibus-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
